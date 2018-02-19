@@ -1,0 +1,7 @@
+<suite name="Test-Suite" >
+  <test name="Unisa.co.za" >
+   <classes>
+     <classes name="HeadlessBrowserDemo.TestNG" />
+   </classes>
+  </test>
+ </suite>

@@ -1,0 +1,16 @@
+<suite name="Test-Suite" >
+  <test name="TestParameters" >
+  
+  <parameter name="sUsername" value="testuser_1"/>
+  <parameter name="sPassword" value="Test@123" />
+  
+  
+   <classes>
+   
+     <classes name="automationFrameworks.TestNGParameters" />
+   
+   </classes>
+  
+  </test>
+ 
+ </suite>

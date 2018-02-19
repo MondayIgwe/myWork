@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test-Suite]">
+  <test name="SeleniumWebDriverDemoTutorial(failed)">
+    <classes>
+      <class name="TestCases.VerifyGuru99Login">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- TestCases.VerifyGuru99Login -->
+    </classes>
+  </test> <!-- SeleniumWebDriverDemoTutorial(failed) -->
+</suite> <!-- Failed suite [Test-Suite] -->
