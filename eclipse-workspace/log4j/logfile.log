@@ -1,0 +1,47 @@
+2018-01-29 11:27:51,728 INFO  [log4jTest] ######################################################### 
+2018-01-29 11:27:51,729 INFO  [log4jTest] Test has started 
+2018-01-29 11:29:33,821 INFO  [log4jTest] ######################################################### 
+2018-01-29 11:29:33,821 INFO  [log4jTest] Test has started 
+2018-01-29 11:29:40,689 INFO  [log4jTest] Open calc Application 
+2018-01-29 11:32:46,005 INFO  [log4jTest] ######################################################### 
+2018-01-29 11:32:46,007 INFO  [log4jTest] Test has started 
+2018-01-29 11:32:48,619 INFO  [log4jTest] Open calc Application 
+2018-01-29 11:32:50,259 INFO  [log4jTest] Clicked Math Calculator Link 
+2018-01-29 11:32:51,311 INFO  [log4jTest] Clicked Percent Calculator Link 
+2018-01-29 11:37:54,353 INFO  [log4jTest] ######################################################### 
+2018-01-29 11:37:54,354 INFO  [log4jTest] Test has started 
+2018-01-29 11:37:56,604 INFO  [log4jTest] Open calc Application 
+2018-01-29 11:37:58,405 INFO  [log4jTest] Clicked Math Calculator Link 
+2018-01-29 11:37:59,456 INFO  [log4jTest] Clicked Percent Calculator Link 
+2018-01-29 11:37:59,734 INFO  [log4jTest] Entered Value into First Text Box 
+2018-01-29 11:37:59,753 INFO  [log4jTest] Entered Value into Second Text Box 
+2018-01-29 11:38:00,488 INFO  [log4jTest] Click Calculate Button 
+2018-01-29 11:38:00,587 INFO  [log4jTest]  The Result is  
+2018-01-29 11:38:00,587 ERROR [log4jTest] TEST FAILED, NEEDS INVESTIGATION 
+2018-01-29 11:38:00,587 INFO  [log4jTest] # # # # # # # # # # # # # # # # # # # # # # # # # # #  
+2018-01-29 11:39:38,870 INFO  [log4jTest] ######################################################### 
+2018-01-29 11:39:38,870 INFO  [log4jTest] Test has started 
+2018-01-29 11:39:41,983 INFO  [log4jTest] Open calc Application 
+2018-01-29 11:39:43,573 INFO  [log4jTest] Clicked Math Calculator Link 
+2018-01-29 11:39:53,709 INFO  [log4jTest] Clicked Percent Calculator Link 
+2018-01-29 11:39:54,079 INFO  [log4jTest] Entered Value into First Text Box 
+2018-01-29 11:39:54,089 INFO  [log4jTest] Entered Value into Second Text Box 
+2018-01-29 11:39:54,792 INFO  [log4jTest] Click Calculate Button 
+2018-01-29 11:39:54,796 INFO  [log4jTest]  The Result is  
+2018-01-29 11:39:54,796 ERROR [log4jTest] TEST FAILED, NEEDS INVESTIGATION 
+2018-01-29 11:39:54,796 INFO  [log4jTest] # # # # # # # # # # # # # # # # # # # # # # # # # # #  
+2018-01-29 11:41:54,976 INFO  [log4jTest] ######################################################### 
+2018-01-29 11:41:54,976 INFO  [log4jTest] Test has started 
+2018-01-29 11:41:57,795 INFO  [log4jTest] Open calc Application 
+2018-01-29 11:41:59,417 INFO  [log4jTest] Clicked Math Calculator Link 
+2018-01-29 11:42:00,581 INFO  [log4jTest] Clicked Percent Calculator Link 
+2018-01-29 11:42:00,843 INFO  [log4jTest] Entered Value into First Text Box 
+2018-01-29 11:42:00,853 INFO  [log4jTest] Entered Value into Second Text Box 
+2018-01-29 11:42:01,684 INFO  [log4jTest] Click Calculate Button 
+2018-01-29 11:42:01,694 INFO  [log4jTest]  The Result is  
+2018-01-29 11:42:01,694 ERROR [log4jTest] TEST FAILED, NEEDS INVESTIGATION 
+2018-01-29 11:42:01,694 INFO  [log4jTest] # # # # # # # # # # # # # # # # # # # # # # # # # # #  
+2018-01-29 11:42:01,694 INFO  [log4jTest] Close Browser 
+2018-01-30 07:55:44,146 INFO  [log4jTest] ######################################################### 
+2018-01-30 07:55:44,146 INFO  [log4jTest] Test has started 
+2018-01-30 07:55:45,508 INFO  [log4jTest] Open calc Application 

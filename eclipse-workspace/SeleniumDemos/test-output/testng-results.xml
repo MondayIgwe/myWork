@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-01-25T14:43:18Z" name="Default suite" finished-at="2018-01-25T14:43:23Z" duration-ms="5638">
+    <groups>
+    </groups>
+    <test started-at="2018-01-25T14:43:18Z" name="Default test" finished-at="2018-01-25T14:43:23Z" duration-ms="5638">
+      <class name="TotalNumbersOfWebElemnts.FindAllCheckBoxes">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TotalNumbersOfWebElemnts.FindAllCheckBoxes@36b4fe2a]" started-at="2018-01-25T16:43:18Z" name="beforeTest" finished-at="2018-01-25T16:43:19Z" duration-ms="1404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="initialise()[pri:0, instance:TotalNumbersOfWebElemnts.FindAllCheckBoxes@36b4fe2a]" started-at="2018-01-25T16:43:19Z" name="initialise" finished-at="2018-01-25T16:43:23Z" duration-ms="4215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TotalNumbersOfWebElemnts.FindAllCheckBoxes@36b4fe2a]" started-at="2018-01-25T16:43:23Z" name="tearDown" finished-at="2018-01-25T16:43:23Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TotalNumbersOfWebElemnts.FindAllCheckBoxes -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

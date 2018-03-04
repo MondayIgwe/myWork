@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-01-03T13:32:45Z" name="Default suite" finished-at="2018-01-03T13:32:45Z" duration-ms="40">
+    <groups>
+    </groups>
+    <test started-at="2018-01-03T13:32:45Z" name="Default test" finished-at="2018-01-03T13:32:45Z" duration-ms="40">
+      <class name="testNg.TestNGSimpleTest">
+        <test-method signature="testAdd()[pri:0, instance:testNg.TestNGSimpleTest@7e9131d5]" started-at="2018-01-03T15:32:45Z" name="testAdd" finished-at="2018-01-03T15:32:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+      </class> <!-- testNg.TestNGSimpleTest -->
+      <class name="testNg.TestEmployeeDetails">
+        <test-method signature="testCalculateAppraisal()[pri:0, instance:testNg.TestEmployeeDetails@2e1d27ba]" started-at="2018-01-03T15:32:45Z" name="testCalculateAppraisal" finished-at="2018-01-03T15:32:45Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateAppraisal -->
+      </class> <!-- testNg.TestEmployeeDetails -->
+      <class name="testNg.SampleTest">
+        <test-method signature="testPrintMesssage(java.lang.String)[pri:0, instance:testNg.SampleTest@46fa7c39]" started-at="2018-01-03T15:32:45Z" name="testPrintMesssage" finished-at="2018-01-03T15:32:45Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method testPrintMesssage requires 1 parameters but 0 were supplied in the @Test annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method testPrintMesssage requires 1 parameters but 0 were supplied in the @Test annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:198)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:134)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:373)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrintMesssage -->
+      </class> <!-- testNg.SampleTest -->
+      <class name="testNg.TestngAnnotation">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNg.TestngAnnotation@524d6d96]" started-at="2018-01-03T15:32:45Z" name="beforeSuite" finished-at="2018-01-03T15:32:45Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNg.TestngAnnotation@524d6d96]" started-at="2018-01-03T15:32:45Z" name="beforeTest" finished-at="2018-01-03T15:32:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNg.TestngAnnotation@524d6d96]" started-at="2018-01-03T15:32:45Z" name="beforeMethod" finished-at="2018-01-03T15:32:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCase2()[pri:0, instance:testNg.TestngAnnotation@524d6d96]" started-at="2018-01-03T15:32:45Z" name="testCase2" finished-at="2018-01-03T15:32:45Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNg.TestngAnnotation@524d6d96]" started-at="2018-01-03T15:32:45Z" name="afterMethod" finished-at="2018-01-03T15:32:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNg.TestngAnnotation@524d6d96]" started-at="2018-01-03T15:32:45Z" name="beforeMethod" finished-at="2018-01-03T15:32:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCase1()[pri:0, instance:testNg.TestngAnnotation@524d6d96]" started-at="2018-01-03T15:32:45Z" name="testCase1" finished-at="2018-01-03T15:32:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNg.TestngAnnotation@524d6d96]" started-at="2018-01-03T15:32:45Z" name="beforeClass" finished-at="2018-01-03T15:32:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNg.TestngAnnotation@524d6d96]" started-at="2018-01-03T15:32:45Z" name="afterMethod" finished-at="2018-01-03T15:32:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNg.TestngAnnotation@524d6d96]" started-at="2018-01-03T15:32:45Z" name="afterClass" finished-at="2018-01-03T15:32:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNg.TestngAnnotation@524d6d96]" started-at="2018-01-03T15:32:45Z" name="afterTest" finished-at="2018-01-03T15:32:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testNg.TestngAnnotation@524d6d96]" started-at="2018-01-03T15:32:45Z" name="afterSuite" finished-at="2018-01-03T15:32:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testNg.TestngAnnotation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
